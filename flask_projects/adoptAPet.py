@@ -1,7 +1,7 @@
 # tried this way and can't seem to get it
 
 # from flask import Flask
-# from helper.py import pets 
+# from helper import pets 
 
 # app = Flask(__name__)
 
@@ -22,7 +22,7 @@
 #   html = f"<h1>List of {pet_type}</h1>"
 #   html += "<ul>"
 #   for item in pets[pet_type]:
-#    htlm += "<li>" + f'<a href="/animals/{pet_type}">' + item["name"] + "</a></li>"
+#    html += "<li>" + f'<a href="/animals/{pet_type}">' + item["name"] + "</a></li>"
 #    html += "</ul>"
 #   return html
 
@@ -37,7 +37,6 @@
 #     'url': pet_type['url']
 #   }
 
-# return pet
 
 from flask import Flask
 from helper import pets
