@@ -1,0 +1,7 @@
+Using if statements in a template happens inside a statement delimiter block: {% %}.
+
+this is an example:
+
+{% if template_variable == "Hello" %}
+  <p>{{template_variable}}, World!</p> 
+{% endif %}
