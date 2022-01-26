@@ -1,0 +1,24 @@
+Inheritance Example:
+
+//This is in the base.html file
+
+<html>
+  <head>
+    <title>MY WEBSITE</title>
+  </head>
+  <body>
+  {% block content %}{% endblock %}
+  </body>
+</html>
+
+
+//This is in the index.html file
+
+{% extends "base.html"  %}
+ 
+{% block content %}
+    <p>This is my paragraph for this page.</p>
+{% endblock %}
+
+
+Example exercises are in the base.html, index.html, and recipe.html file in the templates folder

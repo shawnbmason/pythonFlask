@@ -1,0 +1,13 @@
+This is an example of a for loop inside of flask
+
+<ol>
+{% for x in range(3) %}
+    <li>{{ x }}</li>
+{% endfor %}
+</ol>
+
+outputs: 1. 0
+         2. 1 
+         3. 2
+
+The example exercise is on the recipe.html and index.html file

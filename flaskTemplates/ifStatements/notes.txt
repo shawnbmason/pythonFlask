@@ -5,3 +5,5 @@ this is an example:
 {% if template_variable == "Hello" %}
   <p>{{template_variable}}, World!</p> 
 {% endif %}
+
+if statement example it in the recipe.html file
